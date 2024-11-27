@@ -1,0 +1,79 @@
+img
+{
+    height: 150px;
+    width: 300px;
+    border-radius: 28px 28px 0px 0px ;
+}
+body
+{
+    background-color: bisque;
+}
+.DIV
+{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 30px;
+    padding-top: 100px;
+}
+.div1 , .div2 , .div3
+{
+   height: 300px;
+   width: 300px;
+   background-color: rgb(253, 253, 253);
+   border-radius: 30px 30px 30px 30px;
+   border: 2px solid black;
+}
+.DIV .p1
+{
+    margin-top:-4px;
+    text-align: center;
+    color: red;
+    font-style: italic;
+    font-size: larger;
+}
+.div1 .div1_3 , .div2_3 , .div3_3
+{   
+    height: 100px;
+    overflow: scroll;
+    padding-top: -10px;
+    color: blue;
+}
+::-webkit-scrollbar
+{
+    display: none;
+}
+@media screen and (min-width:0px) and (max-width:320px)
+{
+    body
+    {
+        background-color:antiquewhite;
+    }
+}
+@media screen and (min-width:321px) and (max-width:425px)
+{
+    body
+    {
+        background-color: aqua;
+    }
+}
+@media screen and (min-width:426px) and (max-width:768px)
+{
+    body
+    {
+        background-color: aquamarine;
+    }
+}
+@media screen and (min-width:769px) and (max-width:1024px)
+{
+    body
+    {
+        background-color:blueviolet;
+    }
+}
+h1 , h2 
+{
+    color: red;
+    font-style: oblique;
+    font-size:xx-large;
+}
